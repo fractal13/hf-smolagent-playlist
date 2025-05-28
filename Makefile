@@ -23,3 +23,6 @@ preptime-code-agent:
 	. $(VENV)/bin/activate; src/preptime_code_agent.py
 
 
+playlist-tool-agent:
+	. $(VENV)/bin/activate; src/playlist_tool_agent.py
+
