@@ -13,13 +13,13 @@ install-deb:
 install-pip: $(VENV)
 	. $(VENV)/bin/activate; pip3 install --upgrade -r requirements.txt
 
-playlist-agent:
-	. $(VENV)/bin/activate; src/playlist_agent.py
+playlist-code-agent:
+	. $(VENV)/bin/activate; src/playlist_code_agent.py
 
-menu-agent:
-	. $(VENV)/bin/activate; src/menu_agent.py
+menu-code-agent:
+	. $(VENV)/bin/activate; src/menu_code_agent.py
 
-preptime-agent:
-	. $(VENV)/bin/activate; src/preptime_agent.py
+preptime-code-agent:
+	. $(VENV)/bin/activate; src/preptime_code_agent.py
 
 
