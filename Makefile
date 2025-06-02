@@ -22,7 +22,12 @@ menu-code-agent:
 preptime-code-agent:
 	. $(VENV)/bin/activate; src/preptime_code_agent.py
 
-
 playlist-tool-agent:
 	. $(VENV)/bin/activate; src/playlist_tool_agent.py
+
+super-vision-agent:
+	. $(VENV)/bin/activate; src/super_vision_agent.py
+
+image-tools-demo:
+	. $(VENV)/bin/activate; src/image_tools.py
 
