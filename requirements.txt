@@ -3,3 +3,7 @@ smolagents[litellm]
 duckduckgo-search
 markdownify
 requests
+langchain
+langchain_community
+rank_bm25
+datasets

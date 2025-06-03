@@ -31,3 +31,9 @@ super-vision-agent:
 image-tools-demo:
 	. $(VENV)/bin/activate; src/image_tools.py
 
+r:
+	. $(VENV)/bin/activate; alfred_gala/retriever.py
+
+t:
+	. $(VENV)/bin/activate; alfred_gala/tools.py
+
